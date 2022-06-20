@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Views.SendToMail"
+    android:background="#92C0C6">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/To"
+        android:textSize="26sp"
+        android:layout_margin="16dp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etEmailAdress"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Email:">
+
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/Subject"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etSubject"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Subject:">
+
+    </EditText>
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/Message"
+        android:textColor="@color/black"
+        android:textSize="26sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etMessage"
+        android:layout_marginHorizontal="16dp"
+        android:hint="Message:">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="26dp"
+        android:backgroundTint="@color/black"
+        android:text="Send"
+        android:textSize="26sp" />
+
+
+</LinearLayout>
